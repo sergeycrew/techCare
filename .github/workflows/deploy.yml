@@ -4,7 +4,8 @@ on:
   push:
     branches: [main]
 env:
-  VITE_API_TEST: ${{secrets.VITE_API_TEST}}
+  USERNAME: ${{secrets.USERNAME}}
+  PASSWORD: ${{secrets.PASSWORD}}
 
 jobs:
   build-and-deploy:
