@@ -1,4 +1,5 @@
 import { Logo } from '../Logo/Logo';
+import { UserBar } from '../UserBar/UserBar';
 import {
   HeaderContainer,
   Navigation,
@@ -44,6 +45,7 @@ export const Header = () => {
           Transactions
         </StyledLink>
       </Navigation>
+      <UserBar />
     </HeaderContainer>
   );
 };

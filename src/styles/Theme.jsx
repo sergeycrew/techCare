@@ -27,6 +27,7 @@ export const theme = {
     white: '#FFFFFF',
     darkBlue: '#072635',
     lightGrey: '#F6F7F8',
+    textGrey: '#707070',
     //accent
     green: '#01F0D0',
     lightGreen: '#D8FCF7',
