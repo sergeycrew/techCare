@@ -1,5 +1,5 @@
-import { ServiceMessage } from '../components/ServiceMessage/ServiceMessage';
+import { PatientList } from '../components/PatientList/PatientList';
 
 export const Patients = () => {
-  return <ServiceMessage />;
+  return <PatientList />;
 };

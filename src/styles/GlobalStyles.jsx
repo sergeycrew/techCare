@@ -30,9 +30,9 @@ p {
     margin: 0;
 }
 
-
 ul,
-ol {
+ol,
+ {
   list-style: none;
   padding: 0;
   margin: 0;

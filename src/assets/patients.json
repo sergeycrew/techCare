@@ -1,0 +1,85 @@
+[{
+    "name": "Emily Williams",
+	"gender": "Female",
+	"age": 18,
+	"profile_picture_1x": "/assets/Layer_8.png",
+    "profile_picture_2x": "/assets/Layer_8@2x.png"
+},
+{
+    "name": "Ryan Johnson",
+	"gender": "Male",
+	"age": 45,
+	"profile_picture_1x": "/assets/Layer_1.png",
+    "profile_picture_2x": "/assets/Layer_1@2x.png"
+},
+{
+    "name": "Brandon Mitchal",
+	"gender": "Male",
+	"age": 36,
+	"profile_picture_1x": "/assets/Layer_3.png",
+    "profile_picture_2x": "/assets/Layer_3@2x.png"
+},
+{
+    "name": "Jessica Tylor",
+	"gender": "Female",
+	"age": 28,
+	"profile_picture_1x": "/assets/Layer_2-1.png",
+    "profile_picture_2x": "/assets/Layer_2-1@2x.png"
+},
+{
+    "name": "Samantha Johnson",
+	"gender": "Female",
+	"age": 55,
+	"profile_picture_1x": "/assets/Layer_6.png",
+    "profile_picture_2x": "/assets/Layer_6@2x.png"
+},
+{
+    "name": "Ashley Martinez",
+	"gender": "Female",
+	"age": 54,
+	"profile_picture_1x": "/assets/Layer_12.png",
+    "profile_picture_2x": "/assets/Layer_12@2x.png"
+},
+{
+    "name": "Olivia Brown",
+	"gender": "Female",
+	"age": 32,
+	"profile_picture_1x": "/assets/Layer_10.png",
+    "profile_picture_2x": "/assets/Layer_10@2x.png"
+},
+{
+    "name": "Tyler Davis",
+	"gender": "Male",
+	"age": 19,
+	"profile_picture_1x": "/assets/Layer_9.png",
+    "profile_picture_2x": "/assets/Layer_9@2x.png"
+},
+{
+    "name": "Kevin Anderson",
+	"gender": "Male",
+	"age": 30,
+	"profile_picture_1x": "/assets/Layer_4.png",
+    "profile_picture_2x": "/assets/Layer_4@2x.png"
+},
+{
+    "name": "Dylan Thompson",
+	"gender": "Male",
+	"age": 36,
+	"profile_picture_1x": "/assets/Layer_5.png",
+    "profile_picture_2x": "/assets/Layer_5@2x.png"
+},
+{
+    "name": "Nathan Evans",
+	"gender": "Male",
+	"age": 58,
+	"profile_picture_1x": "/assets/Layer_7.png",
+    "profile_picture_2x": "/assets/Layer_7@2x.png"
+},
+{
+    "name": "Mike Nolan",
+	"gender": "Male",
+	"age": 31,
+	"profile_picture_1x": "/assets/pexels-photo.png",
+    "profile_picture_2x": "/assets/pexels-photo@2x.png"
+}
+]

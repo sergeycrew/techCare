@@ -28,6 +28,7 @@ export const theme = {
     darkBlue: '#072635',
     lightGrey: '#F6F7F8',
     textGrey: '#707070',
+    lineColor: '#EDEDED',
     //accent
     green: '#01F0D0',
     lightGreen: '#D8FCF7',
