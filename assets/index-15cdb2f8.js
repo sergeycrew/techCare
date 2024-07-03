@@ -204,15 +204,18 @@ line-height: ${({theme:e})=>e.lineHeight.small}
     background-color: ${({theme:e})=>e.colors.green};
   }
 `,Yr=()=>E.jsxs(lv,{children:[E.jsx(ov,{children:"We are working on this Page"}),E.jsx(iv,{children:"Come back later or go to"}),E.jsx(uv,{to:"/patients",children:"Patients"})]}),sv=()=>E.jsx(Yr,{}),av=()=>E.jsx(Yr,{}),cv=[{name:"Emily Williams",gender:"Female",age:18,profile_picture_1x:"/assets/Layer_8.png",profile_picture_2x:"/assets/Layer_8@2x.png"},{name:"Ryan Johnson",gender:"Male",age:45,profile_picture_1x:"/assets/Layer_1.png",profile_picture_2x:"/assets/Layer_1@2x.png"},{name:"Brandon Mitchal",gender:"Male",age:36,profile_picture_1x:"/assets/Layer_3.png",profile_picture_2x:"/assets/Layer_3@2x.png"},{name:"Jessica Tylor",gender:"Female",age:28,profile_picture_1x:"/assets/Layer_2-1.png",profile_picture_2x:"/assets/Layer_2-1@2x.png"},{name:"Samantha Johnson",gender:"Female",age:55,profile_picture_1x:"/assets/Layer_6.png",profile_picture_2x:"/assets/Layer_6@2x.png"},{name:"Ashley Martinez",gender:"Female",age:54,profile_picture_1x:"/assets/Layer_12.png",profile_picture_2x:"/assets/Layer_12@2x.png"},{name:"Olivia Brown",gender:"Female",age:32,profile_picture_1x:"/assets/Layer_10.png",profile_picture_2x:"/assets/Layer_10@2x.png"},{name:"Tyler Davis",gender:"Male",age:19,profile_picture_1x:"/assets/Layer_9.png",profile_picture_2x:"/assets/Layer_9@2x.png"},{name:"Kevin Anderson",gender:"Male",age:30,profile_picture_1x:"/assets/Layer_4.png",profile_picture_2x:"/assets/Layer_4@2x.png"},{name:"Dylan Thompson",gender:"Male",age:36,profile_picture_1x:"/assets/Layer_5.png",profile_picture_2x:"/assets/Layer_5@2x.png"},{name:"Nathan Evans",gender:"Male",age:58,profile_picture_1x:"/assets/Layer_7.png",profile_picture_2x:"/assets/Layer_7@2x.png"},{name:"Mike Nolan",gender:"Male",age:31,profile_picture_1x:"/assets/pexels-photo.png",profile_picture_2x:"/assets/pexels-photo@2x.png"}],fv=F.div`
+  margin-top: 32px;
   background-color: ${({theme:e})=>e.colors.white};
   width: 367px;
-  height: 1054px;
-  padding: 20px;
+  height: 990px;
+  padding: 20px 4px 20px 20px;
   border-radius: 16px;
 `,dv=F.div`
   display: flex;
   justify-content: space between;
   align-items: center;
+  margin-bottom: 40px;
+  padding-right: 18px;
 `,pv=F.h2`
   width: 347px;
   font-weight: ${({theme:e})=>e.fontWeights.extraBold};
@@ -222,19 +225,42 @@ line-height: ${({theme:e})=>e.lineHeight.small}
 `,ec=F.svg`
   width: 18px;
   height: 18px;
-`;F.ul`
-  //width: 367;
-  //display: flex;
-  //flex-direction: column;
-`;const hv=F.li`
+`,hv=F.ul`
+  overflow-y: scroll;
+  height: 900px;
+  padding-right: 30px;
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #072635;
+    border-radius: 3px;
+    opacity: 1;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: #072635 #f1f1f1;
+`,mv=F.li`
   display: flex;
   justify-content: space-between;
   align-items: center;
-`,mv=()=>E.jsxs(fv,{children:[E.jsxs(dv,{children:[E.jsx(pv,{children:"Patients"}),E.jsx(ec,{children:E.jsx("use",{href:`${at}#search_FILL0_wght300_GRAD0_opsz24`})})]}),cv.map(e=>E.jsxs(hv,{children:[E.jsx(Kd,{src1x:e.profile_picture_1x,src2x:e.profile_picture_2x,name:e.name,title:`${e.gender}, ${e.age}`}),E.jsx(ec,{children:E.jsx("use",{href:`${at}#more_horiz_FILL0_wght300_GRAD0_opsz24`})})]},e.name))]}),gv=()=>E.jsx(mv,{}),vv=()=>E.jsx(Yr,{}),yv=()=>E.jsx(Yr,{}),wv=()=>E.jsx(Yr,{});function xv(){return E.jsxs(ch,{children:[E.jsxs(rt,{path:"/",element:E.jsx(rv,{}),children:[E.jsx(rt,{index:!0,element:E.jsx(sv,{})}),E.jsx(rt,{path:"/overview",element:E.jsx(av,{})}),E.jsx(rt,{path:"/patients",element:E.jsx(gv,{})}),E.jsx(rt,{path:"/shedule",element:E.jsx(vv,{})}),E.jsx(rt,{path:"/message",element:E.jsx(yv,{})}),E.jsx(rt,{path:"/transactions",element:E.jsx(wv,{})})]}),E.jsx(rt,{path:"*",element:E.jsx(uh,{to:"/"})})]})}const Sv={fonts:{primary:"Manrope, sans-serif"},fontWeights:{normal:400,bold:700,extraBold:800},fontSize:{small:"14px",medium:"18px",large:"24px",xLarge:"40px"},lineHeight:{none:0,small:19,medium:24,large:33},colors:{white:"#FFFFFF",darkBlue:"#072635",lightGrey:"#F6F7F8",textGrey:"#707070",lineColor:"#EDEDED",green:"#01F0D0",lightGreen:"#D8FCF7"}},kv="/techCare/assets/Manrope-VariableFont_wght-42814a40.ttf",Ev=Ng`
+  margin-bottom: 32px;
+`,gv=()=>E.jsxs(fv,{children:[E.jsxs(dv,{children:[E.jsx(pv,{children:"Patients"}),E.jsx(ec,{children:E.jsx("use",{href:`${at}#search_FILL0_wght300_GRAD0_opsz24`})})]}),E.jsx(hv,{children:cv.map(e=>E.jsxs(mv,{children:[E.jsx(Kd,{src1x:e.profile_picture_1x,src2x:e.profile_picture_2x,name:e.name,title:`${e.gender}, ${e.age}`}),E.jsx(ec,{children:E.jsx("use",{href:`${at}#more_horiz_FILL0_wght300_GRAD0_opsz24`})})]},e.name))})]}),vv=()=>E.jsx(gv,{}),yv=()=>E.jsx(Yr,{}),wv=()=>E.jsx(Yr,{}),xv=()=>E.jsx(Yr,{});function Sv(){return E.jsxs(ch,{children:[E.jsxs(rt,{path:"/",element:E.jsx(rv,{}),children:[E.jsx(rt,{index:!0,element:E.jsx(sv,{})}),E.jsx(rt,{path:"/overview",element:E.jsx(av,{})}),E.jsx(rt,{path:"/patients",element:E.jsx(vv,{})}),E.jsx(rt,{path:"/shedule",element:E.jsx(yv,{})}),E.jsx(rt,{path:"/message",element:E.jsx(wv,{})}),E.jsx(rt,{path:"/transactions",element:E.jsx(xv,{})})]}),E.jsx(rt,{path:"*",element:E.jsx(uh,{to:"/"})})]})}const kv={fonts:{primary:"Manrope, sans-serif"},fontWeights:{normal:400,bold:700,extraBold:800},fontSize:{small:"14px",medium:"18px",large:"24px",xLarge:"40px"},lineHeight:{none:0,small:19,medium:24,large:33},colors:{white:"#FFFFFF",darkBlue:"#072635",lightGrey:"#F6F7F8",textGrey:"#707070",lineColor:"#EDEDED",green:"#01F0D0",lightGreen:"#D8FCF7"}},Ev="/techCare/assets/Manrope-VariableFont_wght-42814a40.ttf",Cv=Ng`
 
 @font-face {
     font-family: 'Manrope';
-    src: url(${kv}) format('truetype');
+    src: url(${Ev}) format('truetype');
     font-weight: 100 900;
     font-style: normal;
   }
@@ -298,4 +324,4 @@ button {
   a:visited {
     color: black;
   }
-`;mi.createRoot(document.getElementById("root")).render(E.jsx(te.StrictMode,{children:E.jsx(gh,{basename:"/techCare",children:E.jsxs(Cg,{theme:Sv,children:[E.jsx(xv,{}),E.jsx(Ev,{})]})})}));
+`;mi.createRoot(document.getElementById("root")).render(E.jsx(te.StrictMode,{children:E.jsx(gh,{basename:"/techCare",children:E.jsxs(Cg,{theme:kv,children:[E.jsx(Sv,{}),E.jsx(Cv,{})]})})}));
