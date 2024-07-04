@@ -29,6 +29,8 @@ export const theme = {
     lightGrey: '#F6F7F8',
     textGrey: '#707070',
     lineColor: '#EDEDED',
+    diastolic: '#8C6FE6',
+    systolic: '#E66FD2',
     //accent
     green: '#01F0D0',
     lightGreen: '#D8FCF7',

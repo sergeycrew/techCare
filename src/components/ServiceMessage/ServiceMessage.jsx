@@ -5,7 +5,9 @@ export const ServiceMessage = () => {
     <Container>
       <Title>We are working on this Page</Title>
       <Message>Come back later or go to</Message>
-      <StyledLink to="/patients">Patients</StyledLink>
+      <StyledLink to="/patients" activeClassName="active">
+        Patients
+      </StyledLink>
     </Container>
   );
 };
