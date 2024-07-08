@@ -31,6 +31,7 @@ export const theme = {
     lineColor: '#EDEDED',
     diastolic: '#8C6FE6',
     systolic: '#E66FD2',
+    violet: `#f4f0fe`,
     //accent
     green: '#01F0D0',
     lightGreen: '#D8FCF7',
