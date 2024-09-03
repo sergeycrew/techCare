@@ -37,4 +37,3 @@ export const Icon = styled.svg`
   width: 20px;
   }
 `;
-//
